@@ -20,4 +20,4 @@ class Laptop(Tech):
     def __str__(self):
         return f"{self.size}-inch {self.name} with {self.storage}GB of storage"
     def __repr__(self):
-        f"Laptop({self.name}, {self.storage}GB, {self.size})"
+        return f"Laptop({self.name}, {self.storage}GB, {self.size})"
